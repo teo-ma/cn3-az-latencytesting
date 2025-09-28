@@ -81,3 +81,7 @@ sockperf ping-pong --ip 10.0.3.4 --time 10
 ---
 
 完成状态：此 README 已基于您提供的数据生成。如需改动文本风格、增加更多可视化图表或添加 raw sockperf 输出，请告诉我要添加的内容。
+
+免责声明
+--
+此次测试结果仅基于作者在特定时间点、特定 Azure cn3（北三）region 配置和 VM SKU 下的测试环境与方法。测试数据仅供参考，不代表 Microsoft/Azure 官方的性能或网络质量测量结果。若需要官方基准或正式验证，请联系 Azure 支持或使用 Microsoft 提供的标准化测试工具与方法。
