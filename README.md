@@ -20,20 +20,6 @@
 
 使用 iperf3 工具进行 TCP 层延迟测试，测量各 AZ 之间的网络 RTT。
 
-
-
-### TCP 测试过程截图
-
-
-
-*以下截图展示在各 AZ VM 上使用 iperf3 进行 TCP 延迟测试的直观过程，并未完整显示测试数据*
-
-![AZ1 VM TCP 测试截图](images/tcp-latency-vm1.png)
-
-![AZ2 VM TCP 测试截图](images/tcp-latency-vm2.png)
-
-![AZ3 VM TCP 测试截图](images/tcp-latency-vm3.png)
-
 ### 测试结果
 
 下面是针对 Azure cn3（北三）三个可用区（AZ1、AZ2、AZ3）之间使用 iperf3 进行的 TCP 延迟（RTT）测试结果。数值为单向 RTT，单位为毫秒（ms）：
@@ -47,6 +33,20 @@
 | AZ3 | AZ1 | 0.879 |
 | AZ3 | AZ2 | 0.702 |
 ![TCP 延迟测试结果](images/TCP-Latency.png)
+
+### TCP 测试过程截图
+
+
+
+*以下截图展示在各 AZ VM 上使用 iperf3 进行 TCP 延迟测试的直观过程，并未完整显示测试数据*
+
+![AZ1 VM TCP 测试截图](images/tcp-latency-vm1.png)
+
+![AZ2 VM TCP 测试截图](images/tcp-latency-vm2.png)
+
+![AZ3 VM TCP 测试截图](images/tcp-latency-vm3.png)
+
+
 
 ### TCP 测试分析
 
