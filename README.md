@@ -32,6 +32,8 @@
 | AZ2 | AZ3 | 0.588 |
 | AZ3 | AZ1 | 0.879 |
 | AZ3 | AZ2 | 0.702 |
+
+
 ![TCP 延迟测试结果](images/TCP-Latency.png)
 
 ### TCP 测试过程截图
